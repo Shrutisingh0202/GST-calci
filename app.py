@@ -1,9 +1,10 @@
-from PIL import Image
-import streamlit as st
+import requests
+from io import BytesIO
 
-# Load and show logo
-logo = Image.open("![logo](https://github.com/user-attachments/assets/d7fe45f4-068b-417e-b3e5-6772eb6aa735)")
-st.image(logo, width=120)  # You can adjust width as needed
+url = "file:///C:/Users/HI/Downloads/logo.png"
+response = requests.get(url)
+logo = Image.open(BytesIO(response.content))
+st.image(logo, width=120)
 
 import streamlit as st
 
