@@ -10,7 +10,8 @@ A simple web app to calculate GST using Streamlit.
 
 ## 🖥️ Demo
 
-![Demo](
+![Demo](![logo](https://github.com/user-attachments/assets/d7fe45f4-068b-417e-b3e5-6772eb6aa735)
+
 
 ## 🚀 Run it locally
 
