@@ -2,7 +2,7 @@ from PIL import Image
 import streamlit as st
 
 # Load and show logo
-logo = Image.open("logo.png")
+logo = Image.open("![logo](https://github.com/user-attachments/assets/d7fe45f4-068b-417e-b3e5-6772eb6aa735)")
 st.image(logo, width=120)  # You can adjust width as needed
 
 import streamlit as st
