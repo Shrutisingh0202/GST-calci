@@ -1,3 +1,10 @@
+from PIL import Image
+import streamlit as st
+
+# Load and show logo
+logo = Image.open("logo.png")
+st.image(logo, width=120)  # You can adjust width as needed
+
 import streamlit as st
 
 st.set_page_config(page_title="GST Calculator", page_icon="💰")
