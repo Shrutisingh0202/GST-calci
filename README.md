@@ -1,4 +1,3 @@
-# GST-calci
 # 💸 GST Calculator (India)
 
 A simple web app to calculate GST using Streamlit.
@@ -11,7 +10,7 @@ A simple web app to calculate GST using Streamlit.
 
 ## 🖥️ Demo
 
-![Demo](demo.png)
+![Demo](
 
 ## 🚀 Run it locally
 
